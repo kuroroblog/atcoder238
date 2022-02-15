@@ -23,5 +23,3 @@ for i in range(1, len(slice_list)):
     ans = max(ans, slice_list[i] - slice_list[i - 1])
 
 print(ans)
-
-
